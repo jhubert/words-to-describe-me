@@ -1,0 +1,9 @@
+<?php
+$host = "";
+$name = "";
+$user = "";
+$pass = "";
+
+$conn = mysql_connect($host, $user, $pass) or die ("Unable to connect to database."); 
+mysql_select_db($name, $conn);
+?>
